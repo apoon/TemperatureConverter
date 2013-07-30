@@ -19,6 +19,8 @@
 		0E2FEF8017A7354A00CC561F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2FEF6817A7354A00CC561F /* UIKit.framework */; };
 		0E2FEF8817A7354A00CC561F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E2FEF8617A7354A00CC561F /* InfoPlist.strings */; };
 		0E2FEF8A17A7354A00CC561F /* TemperatureConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2FEF8917A7354A00CC561F /* TemperatureConverterTests.m */; };
+		0E2FEF9617A735F900CC561F /* TemperatureConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2FEF9417A735F900CC561F /* TemperatureConverterViewController.m */; };
+		0E2FEF9717A735F900CC561F /* TemperatureConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2FEF9517A735F900CC561F /* TemperatureConverterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		0E2FEF8517A7354A00CC561F /* TemperatureConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemperatureConverterTests-Info.plist"; sourceTree = "<group>"; };
 		0E2FEF8717A7354A00CC561F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E2FEF8917A7354A00CC561F /* TemperatureConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureConverterTests.m; sourceTree = "<group>"; };
+		0E2FEF9317A735F900CC561F /* TemperatureConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureConverterViewController.h; sourceTree = "<group>"; };
+		0E2FEF9417A735F900CC561F /* TemperatureConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureConverterViewController.m; sourceTree = "<group>"; };
+		0E2FEF9517A735F900CC561F /* TemperatureConverterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureConverterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				0E2FEF7417A7354A00CC561F /* TemperatureConverterAppDelegate.m */,
 				0E2FEF7617A7354A00CC561F /* Images.xcassets */,
 				0E2FEF6B17A7354A00CC561F /* Supporting Files */,
+				0E2FEF9317A735F900CC561F /* TemperatureConverterViewController.h */,
+				0E2FEF9417A735F900CC561F /* TemperatureConverterViewController.m */,
+				0E2FEF9517A735F900CC561F /* TemperatureConverterViewController.xib */,
 			);
 			path = TemperatureConverter;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2FEF9717A735F900CC561F /* TemperatureConverterViewController.xib in Resources */,
 				0E2FEF6F17A7354A00CC561F /* InfoPlist.strings in Resources */,
 				0E2FEF7717A7354A00CC561F /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2FEF9617A735F900CC561F /* TemperatureConverterViewController.m in Sources */,
 				0E2FEF7517A7354A00CC561F /* TemperatureConverterAppDelegate.m in Sources */,
 				0E2FEF7117A7354A00CC561F /* main.m in Sources */,
 			);
